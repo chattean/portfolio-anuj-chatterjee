@@ -1,0 +1,129 @@
+/*CSS variables*/
+:root {
+    --primary-color: #117081;
+    --secondary-color: #c3d175;
+    --tertiary-color: #39a6b2;
+  }
+/* this is to remove default padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Styles the body with color and text */
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  /* applies padding to the header and Background color */
+header{
+    display: flex;
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav{
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  section {
+    padding: 60px;
+  }
+.section-title{
+    display: flex;
+    font-size: 55px;
+    color: var(--secondary-color);
+    border-right: 3px solid;
+    padding:20px;
+    text-align:left;
+    margin: auto 0 auto 35px;
+    width:25%;
+}
+    /* Hero Style Start */
+.hero{
+    display:flex;
+    justify-content: center;
+    /* flex-wrap:wrap; */
+    background-image:url("../images/hero-bg.jpg");
+    background-size:cover;
+    background-position: center;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding:300px;
+}
+/* Hero imaga cta*/
+.hero-subtitle{
+    width: 35%;
+    text-align: right;
+    margin:3.5%;
+    color:#fff;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: var(--tertiary-color);
+}
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .about, .work{
+      display: flex;
+      position: relative;
+  }
+
+  .about p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 60%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+

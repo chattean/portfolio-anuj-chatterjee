@@ -158,7 +158,7 @@ header nav ul li a:hover {
 }
 
   .service-grid-item.initial {
-    background-image: url("../images/run_buddy.jpg");
+    background-image: url("../images/money_maker.png");
     background-size:cover;
     background-position: center;
     grid-column: 1 / span 2;
@@ -167,14 +167,15 @@ header nav ul li a:hover {
   }
 
   .service-grid-item.column-projects1{
-    background-image: url("../images/camera.jpg");
+    background-image: url("../images/run_buddy.jpg");
+
 background-size: contain;
 background-repeat: no-repeat;
       grid-column: 3;
       grid-row:1/4;
   }
   .service-grid-item.column-projects2{
-    background-image: url("../images/run_buddy.jpg");
+    background-image: url("../images/camera.jpg");
     background-size:contain;
       grid-column: 3;
       grid-row:4/-2
